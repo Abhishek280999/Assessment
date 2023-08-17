@@ -38,7 +38,7 @@ export default function Navbar() {
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
 
                 <div className="hidden ml-0 sm:block">
-                  <div className="flex  mt-4 ">
+                  <div className="flex  mt-2 ">
                     {navigation.map((item) => (
                       <a
                         key={item.name}
@@ -55,7 +55,7 @@ export default function Navbar() {
                   </div>
                 </div>
                 <div>
-                  <div className="relative mt-7 left-[250px] rounded-md  shadow-sm">
+                  <div className="relative mt-3 left-[250px] rounded-md  shadow-sm">
                     <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center  pl-3">
                       <span className="text-gray-500 sm:text-sm">{<SearchIcon />}</span>
                     </div>
@@ -63,14 +63,14 @@ export default function Navbar() {
                       type="text"
                       name="price"
                       id="price"
-                      className="block w-full  rounded-l-full rounded-r-full border-0 py-1.5 pl-10 pr-20 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                      className="block w-full border-black  rounded-l-full rounded-r-full border py-1.5 pl-10 pr-20 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                       placeholder="Search for songs or music notes"
                     />
 
                   </div>
                   
                 </div>
-                <div className='absolute right-[10px]  mt-7'>
+                <div className='absolute right-[10px]  mt-4'>
                     {<MusicNoteIcon className='mr-2'/>}
                     {<MusicVideoIcon className='mr-2'/>}
                     {<ChatBubbleOutlineIcon/>}

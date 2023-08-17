@@ -13,19 +13,19 @@ function App() {
         <Sidebar />
       </div>
       <div className=' w-[60%] ' >
-       <Navbar  />
+        <Navbar />
         <div>
-          <Home/>
-          <div className='mt-14'>
-          <Community/>
+          <Home />
+          <div className='mt-10'>
+            <Community />
           </div>
         </div>
       </div>
       <div className='w-[24%] bg-gray-100'>
-         <MobileChat/>
-        </div>
+        <MobileChat />
+      </div>
     </div>
-   
+
   );
 
 }
