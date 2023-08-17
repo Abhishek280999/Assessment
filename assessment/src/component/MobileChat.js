@@ -1,10 +1,14 @@
 import React from 'react';
 import SendIcon from '@mui/icons-material/Send';
-import img from '../image/img1.jpg'
+
+import MenuBookIcon from '@mui/icons-material/MenuBook';
+import HomeIcon from '@mui/icons-material/Home';
+import NoteAltIcon from '@mui/icons-material/NoteAlt';
+
 const MobileChat = () => {
     return (
-        <div className='p-6 absolute right-1 '>
-            <div className="h-[680px] p-1 chat w-[340px] border border-gray-400 rounded-2xl bg-white flex flex-col">
+        <div className='p-5 absolute -right-0.5 '>
+            <div className="h-[690px] p-1 chat w-[340px] border border-gray-400 rounded-2xl bg-white flex flex-col">
                 {/* Chat Header */}
                 <div className="bg-white font-extrabold text-black p-4 border-b border-gray-500 ">
                     <h1 className="text-xl font-semibold">Music Chat </h1>
@@ -114,7 +118,23 @@ const MobileChat = () => {
                     </div>
                 </div>
             </div>
+            
+        <div className='mt-4 ml-3'>
+             <div className='p-1 w-[320px] h-10 bg-white mb-2 ml-2 rounded-l-full rounded-r-full'>
+                <div className='w-9 h-9 rounded-full bg-black '><MenuBookIcon className='ml-2 mt-1 text-white'/> </div><span className='relative bottom-8 left-12 text-sm font-bold '>Important Practises</span>
+             </div>
+             <div className='p-1 w-[320px] h-10 bg-white mb-2 ml-2 rounded-l-full rounded-r-full'> 
+                <div className='w-9 h-9 rounded-full bg-black'><HomeIcon className='ml-2 mt-1 text-white'/></div><span className='relative bottom-8 left-12 text-sm font-bold '>Assignments</span>
+             </div><div className='p-1 w-[320px] h-10 bg-white ml-2 mb-2 rounded-l-full rounded-r-full'>
+                <div className='w-9 h-9 rounded-full bg-black'><NoteAltIcon className='ml-2 mt-1 text-white'/></div><span className='relative bottom-8 left-12 text-sm font-bold '>Music Notes</span>
+             </div>
+
+
+
         </div>
+
+        </div>
+        
     );
 };
 

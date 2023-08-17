@@ -7,6 +7,8 @@ import AccountBalanceIcon from '@mui/icons-material/AccountBalance';
 import VerifiedIcon from '@mui/icons-material/Verified';
 import PeopleIcon from '@mui/icons-material/People';
 import AudioFileIcon from '@mui/icons-material/AudioFile';
+import LoginIcon from '@mui/icons-material/Login';
+import SettingsIcon from '@mui/icons-material/Settings';
 import Item from "../component/Item";
 import { useState } from "react";
 function Sidebar() {
@@ -72,7 +74,7 @@ function Sidebar() {
               backdropFilter: "blur(1px)",
               WebkitBackdropFilter: "blur(1px)",
               border: "1px solid rgba( 255, 255, 255, 0.18 )",
-              color : "black",
+              color: "black",
               transition: {
                 delay: 0.2,
                 duration: 0.4,
@@ -103,9 +105,8 @@ function Sidebar() {
               <Item icon={<VerifiedIcon />} name="Prograss" />
               <Item icon={<PeopleIcon />} name="Instructors" />
               <Item icon={<AudioFileIcon />} name="Music Notes" />
-
-
             </div>
+
           </div>
           <motion.div
             layout
@@ -125,7 +126,15 @@ function Sidebar() {
           >
 
           </motion.div>
+          <div className="groups relative top-[400px]  ">
+          <div className="border-t border-white pt-4"></div>
+          <div className="group">
+            <Item icon={<SettingsIcon />} name="Settings" />
+            <Item icon={<LoginIcon />} name="Sign Out" />
+          </div>
+        </div>
         </motion.div>
+       
       </motion.div>
     </div>
   );

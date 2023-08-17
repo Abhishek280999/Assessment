@@ -6,6 +6,7 @@ import MusicNoteIcon from '@mui/icons-material/MusicNote';
 import MusicVideoIcon from '@mui/icons-material/MusicVideo';
 import ChatBubbleOutlineIcon from '@mui/icons-material/ChatBubbleOutline';
 
+
 const navigation = [
   { name: 'Music Lesson', href: '#', current: true },
 
@@ -17,7 +18,7 @@ function classNames(...classes) {
 
 export default function Navbar() {
   return (
-    <Disclosure as="nav" className="bg-white">
+    <Disclosure as="nav" className=" bg-gray-100">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">

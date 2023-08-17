@@ -13,7 +13,7 @@ function App() {
         <Sidebar />
       </div>
       <div className=' w-[60%] ' >
-       <Navbar />
+       <Navbar  />
         <div>
           <Home/>
           <div className='mt-14'>
@@ -21,7 +21,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className='w-[24%] '>
+      <div className='w-[24%] bg-gray-100'>
          <MobileChat/>
         </div>
     </div>
