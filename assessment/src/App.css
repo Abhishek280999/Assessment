@@ -91,3 +91,7 @@ h3{
   font-size: 1rem;
   margin: 10px 0px 10px 0px
 }
+
+.chat {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

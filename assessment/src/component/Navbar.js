@@ -69,7 +69,7 @@ export default function Navbar() {
                   </div>
                   
                 </div>
-                <div className='absolute right-[350px]  mt-7'>
+                <div className='absolute right-[10px]  mt-7'>
                     {<MusicNoteIcon className='mr-2'/>}
                     {<MusicVideoIcon className='mr-2'/>}
                     {<ChatBubbleOutlineIcon/>}
