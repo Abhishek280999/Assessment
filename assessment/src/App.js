@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './component/Navbar';
 import Sidebar from './component/Sidebar';
 import Home from './component/Home';
+import Community from './component/Community';
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
         <Navbar />
         <div>
           <Home/>
+          <div className='mt-16'>
+          <Community/>
+          </div>
         </div>
       </div>
     </div>

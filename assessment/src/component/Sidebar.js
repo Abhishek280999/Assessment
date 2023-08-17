@@ -83,7 +83,7 @@ function Sidebar() {
           >
             {/* <TocRounded /> */}
             <div className="div">
-              <img
+              <img className="img"
                 src="https://ae01.alicdn.com/kf/H5be6a0fa5f584a8a8420da2a7d4bc809r/RBRARE-Polaroid-Men-s-Goggle-Driving-Sunglasses-Men-Classic-Low-Profile-Sun-Glasses-For-Men-High.jpg"
                 alt="profile_img"
               />

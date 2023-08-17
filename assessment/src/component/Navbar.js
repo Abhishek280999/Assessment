@@ -54,7 +54,7 @@ export default function Navbar() {
                   </div>
                 </div>
                 <div>
-                  <div className="relative mt-7 left-[320px] rounded-md  shadow-sm">
+                  <div className="relative mt-7 left-[250px] rounded-md  shadow-sm">
                     <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center  pl-3">
                       <span className="text-gray-500 sm:text-sm">{<SearchIcon />}</span>
                     </div>
@@ -69,7 +69,7 @@ export default function Navbar() {
                   </div>
                   
                 </div>
-                <div className='absolute right-[285px]  mt-7'>
+                <div className='absolute right-[350px]  mt-7'>
                     {<MusicNoteIcon className='mr-2'/>}
                     {<MusicVideoIcon className='mr-2'/>}
                     {<ChatBubbleOutlineIcon/>}
