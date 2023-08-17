@@ -9,12 +9,12 @@ import PeopleIcon from '@mui/icons-material/People';
 import AudioFileIcon from '@mui/icons-material/AudioFile';
 import LoginIcon from '@mui/icons-material/Login';
 import SettingsIcon from '@mui/icons-material/Settings';
-import Item from "../component/Item";
+import Item from "./Item";
 import { useState } from "react";
-function Sidebar() {
+function Sidebar_new() {
   const [open, setOpen] = useState(true);
 
-  // for collpsing sidebar
+  // for collpsing sidebar2
   const handleToggle = () => {
     setOpen(!open);
   };
@@ -40,20 +40,21 @@ function Sidebar() {
     },
   };
 
+ 
   return (
     <div className="App">
       <motion.div
-        data-Open={open}
+        data-Open={!open}
         variants={sideContainerVariants}
-        initial={`${open}`}
-        animate={`${open}`}
+        initial={`${!open}`}
+        animate={`${!open}`}
         className="sidebar_container"
       >
         {/* sidebar div */}
         <motion.div
           className="sidebar"
-          initial={`${open}`}
-          animate={`${open}`}
+          initial={`${!open}`}
+          animate={`${!open}`}
           variants={sidebarVariants}
         >
           {/* lines_icon */}
@@ -97,6 +98,7 @@ function Sidebar() {
             </div>
 
           </div>
+         
           <div className="groups relative top-[400px]  ">
           <div className="border-t border-white pt-4"></div>
           <div className="group">
@@ -111,4 +113,4 @@ function Sidebar() {
   );
 }
 
-export default Sidebar;
+export default Sidebar_new;

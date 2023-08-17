@@ -125,7 +125,8 @@ const MobileChat = () => {
              </div>
              <div className='p-1 w-[320px] h-10 bg-white mb-2 ml-2 rounded-l-full rounded-r-full'> 
                 <div className='w-9 h-9 rounded-full bg-black'><HomeIcon className='ml-2 mt-1 text-white'/></div><span className='relative bottom-8 left-12 text-sm font-bold '>Assignments</span>
-             </div><div className='p-1 w-[320px] h-10 bg-white ml-2 mb-2 rounded-l-full rounded-r-full'>
+             </div>
+             <div className='p-1 w-[320px] h-10 bg-white ml-2 mb-2 rounded-l-full rounded-r-full'>
                 <div className='w-9 h-9 rounded-full bg-black'><NoteAltIcon className='ml-2 mt-1 text-white'/></div><span className='relative bottom-8 left-12 text-sm font-bold '>Music Notes</span>
              </div>
 
