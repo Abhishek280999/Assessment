@@ -14,7 +14,7 @@ const Home = () => {
                   <div className='flex justify-between'>
                   <h1 className='font-bold text-2xl'>Music Basics</h1>
                     <h1 className='font-thin text-[15px] mt-2 mr-6'> <span className='mr-3'>
-                    <img class="inline-block h-8 w- rounded-full ring-2 ring-white" src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" />
+                    <img className="inline-block h-8 w- rounded-full ring-2 ring-white" src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" />
                     </span>John Mayer</h1>
                   </div>
                     <img className=' object-cover  h-[520px]  w-[100%] p-5 rounded-[50px]' src={pic} alt='' />

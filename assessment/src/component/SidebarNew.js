@@ -1,8 +1,6 @@
 
 import { motion } from "framer-motion";
-import {
-  DashboardRounded,
-} from "@material-ui/icons";
+import DashboardIcon from '@mui/icons-material/Dashboard';
 import AccountBalanceIcon from '@mui/icons-material/AccountBalance';
 import VerifiedIcon from '@mui/icons-material/Verified';
 import PeopleIcon from '@mui/icons-material/People';
@@ -11,7 +9,7 @@ import LoginIcon from '@mui/icons-material/Login';
 import SettingsIcon from '@mui/icons-material/Settings';
 import Item from "./Item";
 import { useState } from "react";
-function Sidebar_new() {
+function SidebarNew() {
   const [open, setOpen] = useState(true);
 
   // for collpsing sidebar2
@@ -42,7 +40,7 @@ function Sidebar_new() {
 
  
   return (
-    <div className="App">
+    <div className="applications">
       <motion.div
         data-Open={!open}
         variants={sideContainerVariants}
@@ -90,7 +88,7 @@ function Sidebar_new() {
             <div className="group">
 
 
-              <Item icon={<DashboardRounded />} name="Practices" />
+              <Item icon={<DashboardIcon />} name="Practices" />
               <Item icon={<AccountBalanceIcon />} name="Courses" />
               <Item icon={<VerifiedIcon />} name="Prograss" />
               <Item icon={<PeopleIcon />} name="Instructors" />
@@ -113,4 +111,4 @@ function Sidebar_new() {
   );
 }
 
-export default Sidebar_new;
+export default SidebarNew;

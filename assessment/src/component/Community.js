@@ -18,7 +18,7 @@ const Community = () => {
     </div>
     <div className='w-[85px] text-center text-[15px] h-7 align-middle absolute right-[420px] bottom-[-120px]  rounded-xl bg-white text-black '>+{array.length} more</div>
     <div className='flex '>
-      {array.map((img, index) => (
+      {array?.map((img, index) => (
         <div key={index} className=' p-2  '>
          <img className='w-[165px] h-28 rounded-3xl  ' src={img} alt='' />
         </div>

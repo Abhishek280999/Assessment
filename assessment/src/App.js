@@ -2,7 +2,7 @@
 import './App.css';
 import Navbar from './component/Navbar';
 import Sidebar from './component/Sidebar';
-import Sidebar_new from './component/Sidebar_new';
+import SidebarNew from './component/SidebarNew';
 import Home from './component/Home';
 import Community from './component/Community';
 import MobileChat from './component/MobileChat';
@@ -36,7 +36,7 @@ function App() {
       <div className='mt-40'>
         <div className='flex w-[100%]' >
           <div className=' w-[5%] mr-2 relative top-0 '>
-            <Sidebar_new />
+            <SidebarNew />
           </div>
           <div className='w-[45%] mr-5 rounded-xl'>
             <Music/>

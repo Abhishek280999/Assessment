@@ -1,16 +1,15 @@
 
 import { motion } from "framer-motion";
-import {
-  DashboardRounded,
-} from "@material-ui/icons";
-import AccountBalanceIcon from '@mui/icons-material/AccountBalance';
+import DashboardIcon from '@mui/icons-material/Dashboard';
 import VerifiedIcon from '@mui/icons-material/Verified';
 import PeopleIcon from '@mui/icons-material/People';
 import AudioFileIcon from '@mui/icons-material/AudioFile';
 import LoginIcon from '@mui/icons-material/Login';
 import SettingsIcon from '@mui/icons-material/Settings';
 import Item from "../component/Item";
+import AccountBalanceIcon from '@mui/icons-material/AccountBalance';
 import { useState } from "react";
+
 function Sidebar() {
   const [open, setOpen] = useState(true);
 
@@ -41,7 +40,7 @@ function Sidebar() {
   };
 
   return (
-    <div className="App">
+    <div className="applications">
       <motion.div
         data-Open={open}
         variants={sideContainerVariants}
@@ -87,7 +86,7 @@ function Sidebar() {
           <div className="groups">
 
             <div className="group">
-              <Item icon={<DashboardRounded />} name="Practices" />
+              <Item icon={<DashboardIcon />} name="Practices" />
               <Item icon={<AccountBalanceIcon />} name="Courses" />
               <Item icon={<VerifiedIcon />} name="Prograss" />
               <Item icon={<PeopleIcon />} name="Instructors" />
