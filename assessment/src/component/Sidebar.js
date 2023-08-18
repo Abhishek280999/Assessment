@@ -95,6 +95,7 @@ function Sidebar() {
             </div>
 
           </div>
+          
           <div className="groups relative top-[400px]  ">
           <div className="border-t border-white pt-4"></div>
           <div className="group">
