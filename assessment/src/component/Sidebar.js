@@ -87,8 +87,6 @@ function Sidebar() {
           <div className="groups">
 
             <div className="group">
-
-
               <Item icon={<DashboardRounded />} name="Practices" />
               <Item icon={<AccountBalanceIcon />} name="Courses" />
               <Item icon={<VerifiedIcon />} name="Prograss" />
