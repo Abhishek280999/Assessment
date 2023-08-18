@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import MusicNoteIcon from '@mui/icons-material/MusicNote';
 import pic1 from '../image/pic1.jpg';
 import pic2 from '../image/pic2.jpg';
@@ -46,11 +46,7 @@ const array = [
 ];
 
 const Music = () => {
-    const [activeIndex, setActiveIndex] = useState(null);
-
-    const handleDivClick = (index) => {
-      setActiveIndex(index);
-    };
+  
     return (
         <>
             <div className='flex bg-white justify-between mb-5'>
