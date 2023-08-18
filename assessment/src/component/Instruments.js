@@ -26,10 +26,10 @@ const Instruments = () => {
                 </div>
 
                 <div className='flex text-center mt-16 ml-6'>
-                    <div className=' w-[300px] h-10 mt-4 bg-white ml-2 mb-2 rounded-l-full rounded-r-full'>
+                    <div className=' w-[300px] chat h-10 mt-4 bg-white ml-2 mb-2 rounded-l-full rounded-r-full'>
                         <span className='relative top-1 left-0 text-sm font-thin '>Leave a review</span>
                     </div>
-                    <div className=' w-[300px] h-10 mt-4 bg-white ml-2 mb-2 rounded-l-full rounded-r-full'>
+                    <div className=' w-[300px] chat h-10 mt-4 bg-white ml-2 mb-2 rounded-l-full rounded-r-full'>
                         <span className='relative top-1 left-0 text-sm font-thin '>Contiune learning</span>
                     </div>
 
